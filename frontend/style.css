@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0e7ff, #f4f7fb);
+}
+.container {
+    width: 420px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    margin-top: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:disabled {
+    background: #999;
+}
+
+#preview {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Result card */
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* Priority colors */
+.CRITICAL {
+    background: #ffe0e0;
+    border-left: 6px solid red;
+}
+
+.HIGH {
+    background: #fff2cc;
+    border-left: 6px solid orange;
+}
+
+.MEDIUM {
+    background: #ffffdd;
+    border-left: 6px solid gold;
+}
+
+.LOW {
+    background: #e0ffe0;
+    border-left: 6px solid green;
+}

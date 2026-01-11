@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Human-Like IT Ticket Decision Engine</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Human-Like IT Ticket Decision Engine</h1>
+
+        <label>User Role</label>
+        <select id="userRole">
+            <option value="admin">Admin</option>
+            <option value="manager">Manager</option>
+            <option value="staff">Staff</option>
+        </select>
+
+        <label>Issue Category</label>
+        <select id="issueCategory">
+            <option value="hardware">Hardware</option>
+            <option value="software">Software</option>
+            <option value="network">Network</option>
+        </select>
+
+        <label>Description</label>
+        <textarea id="description" placeholder="Describe the issue"></textarea>
+
+        <!-- Live preview -->
+        <p id="preview"></p>
+
+        <button id="submitBtn">Submit Ticket</button>
+
+        <!-- Result -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
