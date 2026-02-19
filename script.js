@@ -5,7 +5,7 @@ const preview = document.getElementById("preview");
 const resultDiv = document.getElementById("result");
 const submitBtn = document.getElementById("submitBtn");
 
-// 🔥 LIVE PRIORITY PREVIEW
+//  LIVE PRIORITY PREVIEW
 description.addEventListener("input", () => {
   const text = description.value.toLowerCase();
   let level = "LOW";
@@ -17,7 +17,7 @@ description.addEventListener("input", () => {
   preview.innerText = "Likely Priority: " + level;
 });
 
-// 🚀 SUBMIT TICKET
+//  SUBMIT TICKET
 submitBtn.addEventListener("click", async () => {
   resultDiv.innerHTML = "";
   submitBtn.innerText = "Analyzing...";
